@@ -35,3 +35,7 @@ PUSHER_CLUSTER = ''
 | Data (optional*) | ```{ "name": "the name who has been palacsinta bombed" }``` |
 
 _* Data is optional but an empty object is still required_
+
+## Credits
+
+Music: [Belga: Csumpa - Palacsinta](https://belga.hu/csumpa/)
