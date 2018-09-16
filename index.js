@@ -4,8 +4,6 @@ var Pusher = require('pusher-client');
 const say = require('say')
 
 var pusher = new Pusher(process.env.PUSHER_API_KEY, {
-  secret: process.env.PUSHER_SECRET,
-  appId: process.env.PUSHER_APP_ID,
   cluster: process.env.PUSHER_CLUSTER,
   encrypted: true
 });

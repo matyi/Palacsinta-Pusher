@@ -17,8 +17,6 @@ Recommended to install on a Rasberry Pi and place it in the middle of the office
 
 ```
 PUSHER_API_KEY = ''
-PUSHER_SECRET = ''
-PUSHER_APP_ID = ''
 PUSHER_CLUSTER = ''
 ```
 
