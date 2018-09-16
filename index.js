@@ -13,7 +13,7 @@ var pusher = new Pusher(process.env.PUSHER_API_KEY, {
 var my_channel = pusher.subscribe('palacsinta-channel');
 my_channel.bind('palacsinta-happened',
   function(data) {
-    var random = 'sounds/' + (Math.floor(Math.random() * 3) + 1) + '.mp3';
+    var random = 'sounds/' + (Math.floor(Math.random() * 4) + 1) + '.mp3';
     var process = player.play(random, { detached: true }, function(err){
       if (err) throw err;
       if (data && data.name) say.speak('Good job ' + data.name + '!');
