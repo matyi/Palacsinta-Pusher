@@ -36,6 +36,10 @@ PUSHER_CLUSTER = ''
 
 _* Data is optional but an empty object is still required_
 
+## Todos
+
+1. Select palacsinta sound with the slack command: `/palacsinta [number:1-4]`
+
 ## Credits
 
 Music: [Belga: Csumpa - Palacsinta](https://belga.hu/csumpa/)
