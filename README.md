@@ -1,9 +1,13 @@
 # Palacsinta-Pusher
 
+A piece of code to play sound when someone in the office has been palacsinta bombed via slack by the precious `/palacsinta` command.
+
 ## Requirements
 1. Register a free [Pusher account](https://pusher.com/)
 2. On linux you have to install Festival ```apt-get install festival```
 3. Don't forget to plug in the speakers
+
+Recommended to install on a Rasberry Pi and place it in the middle of the office.
 
 ## Installation
 
