@@ -27,7 +27,7 @@ PUSHER_CLUSTER = ''
 | | Send events with these settings |
 | ---------------- | ------------------------------------------------------------|
 | Channel          | palacsinta-channel                                          |
-| Event            | palacsinta-event                                            |
+| Event            | palacsinta-happened                                         |
 | Data (optional*) | ```{ "name": "the name who has been palacsinta bombed" }``` |
 
 _* Data is optional but an empty object is still required_
